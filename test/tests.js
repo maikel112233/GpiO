@@ -2,6 +2,7 @@ var fs = require('fs');
 var assert = require('assert');
 var sinon = require('sinon');
 var gpio = require('../lib/gpio');
+//hola que tal 
 
 function read(file, fn) {
 	fs.readFile(file, "utf-8", function(err, data) {
